@@ -1,4 +1,4 @@
-Import Rpi as GPIO
+Import RPi as GPIO
 import time
 
 ledPin = 11
@@ -21,7 +21,7 @@ def loop():
 def destroy():
        GPIO.cleanup()
 
-if name == ‘_main_’:
+if _name_ == ‘_main_’:
    print ('Program is starting ... \n')
    setup()
    try:
